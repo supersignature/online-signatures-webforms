@@ -15,7 +15,7 @@
     <form id="frmMainMaster" runat="server">
         <div id="divLeft">
             <ul>
-                <li><a href="default.aspx">Home</a></li>
+                <li><a href="/default.aspx">Home</a></li>
                 <li><a href="Mobile.aspx">Mobile</a></li>
                 <li><a href="background.aspx">Background</a></li>
                 <li><a href="/forms/Contact.aspx">Contact Form</a></li>
