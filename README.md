@@ -6,3 +6,5 @@ Digital signatures also known as eSignatures allow your website users to sign on
 can use any touch enabled device like iPhone, iPad, Android or similar touch screen device and seamlessly capture user signatures.
 
 No installations are required as it leverages Html5 Canvas and JavaScript which is widely supported by most modern web browsers.
+
+For more details please visit http://supersignature.com
