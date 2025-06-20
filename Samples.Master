@@ -1,6 +1,8 @@
 ﻿<!DOCTYPE html>
-<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Samples.master.cs"  %>
-<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Samples.master.cs" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>SuperSignature ASP.NET Webforms Samples</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -11,44 +13,44 @@
         <meta http-equiv="refresh" content="1; URL='https://supersignature.com'" />
     </noscript>
     <form id="frmMainMaster" runat="server">
-    <div id="divLeft">
-          <ul>
-            <li><a href="default.aspx">Home</a></li>
-            <li><a href="Mobile.aspx">Mobile</a></li>
-            <li><a href="background.aspx">Background</a></li>
-            <li><a href="Contact.aspx">Contact Form</a></li>
-            <li><a href="ajax.aspx">Ajax</a></li>
-            <li><a href="jQuery.aspx">jQuery</a></li>
-            <li><a href="modal.aspx">Simple Modal</a></li>
-            <li><a href="Toolkit.aspx">Ajax Toolkit</a></li>
-            <li><a href="resize.aspx">Resize</a></li>
-            <li><a href="multiple.aspx">Multiple</a></li>
-            <li><a href="repeater.aspx">Repeater</a></li>
-            <li><a href="Width.aspx">Width</a></li>
-            <li><a href="status.aspx">Status</a></li>
-            <li><a href="ShowHide.aspx">Show - Hide</a></li>
-            <li><a href="SaveDB.aspx">Save To DB</a></li>
-            <li><a href="SaveFile.aspx">Save To File</a></li>
-            <li><a href="document.aspx">Document Signing</a></li>
-            <li><a href="Dynamic.aspx">Dynamic</a></li>
-            <li><a href="Advanced.aspx">Advanced</a></li>
-            <li><a href="PostBack.aspx">PostBack</a></li>
-            <li><a href="PostBack-UpdatePanel.aspx">PostBack (Update Panel)</a></li>
-            <li><a href="Wizard.aspx">Wizard (Update Panel)</a></li>
-            <li><a href="Bootstrap.aspx">Bootstrap Modal</a></li>
-            <li><a href="LoadSignature.aspx">Load Signature</a></li>
-           </ul>
-    </div>
-    <div id="divRight">
-        <asp:ContentPlaceHolder ID="cphMain" runat="server">
-        
-        </asp:ContentPlaceHolder>
-    </div>
-    <div id="divBottom">
-        <asp:ContentPlaceHolder ID="cphFooter" runat="server">
-        
-        </asp:ContentPlaceHolder>
-    </div>
+        <div id="divLeft">
+            <ul>
+                <li><a href="default.aspx">Home</a></li>
+                <li><a href="Mobile.aspx">Mobile</a></li>
+                <li><a href="background.aspx">Background</a></li>
+                <li><a href="/forms/Contact.aspx">Contact Form</a></li>
+                <li><a href="ajax.aspx">Ajax</a></li>
+                <li><a href="jQuery.aspx">jQuery</a></li>
+                <li><a href="modal.aspx">Simple Modal</a></li>
+                <li><a href="Toolkit.aspx">Ajax Toolkit</a></li>
+                <li><a href="resize.aspx">Resize</a></li>
+                <li><a href="multiple.aspx">Multiple</a></li>
+                <li><a href="repeater.aspx">Repeater</a></li>
+                <li><a href="Width.aspx">Width</a></li>
+                <li><a href="status.aspx">Status</a></li>
+                <li><a href="ShowHide.aspx">Show - Hide</a></li>
+                <li><a href="SaveDB.aspx">Save To DB</a></li>
+                <li><a href="SaveFile.aspx">Save To File</a></li>
+                <li><a href="document.aspx">Document Signing</a></li>
+                <li><a href="Dynamic.aspx">Dynamic</a></li>
+                <li><a href="Advanced.aspx">Advanced</a></li>
+                <li><a href="PostBack.aspx">PostBack</a></li>
+                <li><a href="PostBack-UpdatePanel.aspx">PostBack (Update Panel)</a></li>
+                <li><a href="Wizard.aspx">Wizard (Update Panel)</a></li>
+                <li><a href="Bootstrap.aspx">Bootstrap Modal</a></li>
+                <li><a href="LoadSignature.aspx">Load Signature</a></li>
+            </ul>
+            <br />
+            <a href="https://supersignature.com" target="_blank">Visit SuperSignature.com</a>
+        </div>
+        <div id="divRight">
+            <asp:ContentPlaceHolder ID="cphMain" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="divBottom">
+            <asp:ContentPlaceHolder ID="cphFooter" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
     </form>
 </body>
 </html>

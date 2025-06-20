@@ -78,7 +78,8 @@
     <Content Include="bin\AjaxControlToolkit.dll" />
     <Content Include="bin\PdfSharp.dll" />
     <Content Include="bin\SuperSignature.dll" />
-    <Content Include="Contact.aspx" />
+    <Content Include="default.aspx" />
+    <Content Include="forms\Contact.aspx" />
     <Content Include="css\style.css" />
     <Content Include="img\Agreement.png" />
     <Content Include="img\background.gif" />
@@ -91,11 +92,18 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Contact.aspx.cs">
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
+    <Compile Include="forms\Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />

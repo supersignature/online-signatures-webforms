@@ -23,7 +23,7 @@ body {
 #divBottom {
     float: left;
     height: auto;
-    width: 95%;
+    width: 70%;
     position: relative;
     margin: 10px;
     padding: 10px;
@@ -31,26 +31,35 @@ body {
     background-color: #dcdcdc;
     font-size: 14px;
     display: block;
-    border-radius: 6px;
+    border-radius:6px;
 }
 
 ul {
-    list-style: disc;
+    list-style: none;
     width: 80%;
+    margin-left: -15px;
 }
 
 li {
-    padding: 3px;
-}
-
-a:visited {
-    color: #000000;
-    text-decoration: none;
-    font-size: 11px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    list-style: none;
+    margin-left: 0px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 a {
     color: #000000;
-    text-decoration: underline;
     font-size: 12px;
+    text-align: center;
+    text-decoration: none;
 }
+
+    a:visited {
+        color: green;
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: unset;
+    }
