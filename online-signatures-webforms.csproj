@@ -82,6 +82,7 @@
     <Content Include="Forms\Contact.aspx" />
     <Content Include="css\style.css" />
     <Content Include="Forms\Multiple.aspx" />
+    <Content Include="Forms\Repeater.aspx" />
     <Content Include="img\Agreement.png" />
     <Content Include="img\background.gif" />
     <Content Include="img\pencil.cur" />
@@ -115,6 +116,13 @@
     </Compile>
     <Compile Include="Forms\Multiple.aspx.designer.cs">
       <DependentUpon>Multiple.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Repeater.aspx.cs">
+      <DependentUpon>Repeater.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Repeater.aspx.designer.cs">
+      <DependentUpon>Repeater.aspx</DependentUpon>
     </Compile>
     <Compile Include="JavaScript\Ajax.aspx.cs">
       <DependentUpon>Ajax.aspx</DependentUpon>

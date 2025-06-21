@@ -20,12 +20,12 @@
                 <li><a href="background.aspx">Background</a></li>
                 <li><a href="/Forms/Contact.aspx">Contact Form</a></li>
                 <li><a href="/JavaScript/Ajax.aspx">Ajax</a></li>
-                <li><a href="/javascript/jQuery.aspx">jQuery</a></li>
+                <li><a href="/JavaScript/jQuery.aspx">jQuery</a></li>
                 <li><a href="modal.aspx">Simple Modal</a></li>
                 <li><a href="Toolkit.aspx">Ajax Toolkit</a></li>
                 <li><a href="resize.aspx">Resize</a></li>
-                <li><a href="/Forms/multiple.aspx">Multiple</a></li>
-                <li><a href="repeater.aspx">Repeater</a></li>
+                <li><a href="/Forms/Multiple.aspx">Multiple</a></li>
+                <li><a href="/Forms/Repeater.aspx">Repeater</a></li>
                 <li><a href="Width.aspx">Width</a></li>
                 <li><a href="status.aspx">Status</a></li>
                 <li><a href="ShowHide.aspx">Show - Hide</a></li>
