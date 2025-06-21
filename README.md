@@ -7,4 +7,27 @@ can use any touch enabled device like iPhone, iPad, Android or similar touch scr
 
 No installations are required as it leverages Html5 Canvas and JavaScript which is widely supported by most modern web browsers.
 
+List of few devices that SuperSignature supports are:
+
+<ul>
+ <li>Samsung Galaxy Tab S2 & S3</li>
+ <li>Samsung Galaxy Tab Mini</li>
+ <li>Samsung Slate</li>
+ <li>Huion HS64 (adjust the sensitivity)</li>
+ <li>Apple iPhone</li>
+ <li>iPad</li>
+ <li>iPad Air</li>
+ <li>iPad Mini</li>
+ <li>Android</li>
+ <li>Asus Tablet</li>
+ <li>Lenovo Twist</li>
+ <li>HP Tablet</li>
+ <li>HP Elite Pad</li>
+ <li>Nokia Lumia 620, 920</li>
+ <li>Samsung Smart PC</li>
+ <li>Windows Surface Pro</li>
+ <li>Kindle Fire HD</li>
+ <li>and many more!</li>
+</ul>
+
 For more details please visit https://supersignature.com
