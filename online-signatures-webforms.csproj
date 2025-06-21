@@ -88,6 +88,7 @@
     <Content Include="img\refresh.png" />
     <Content Include="img\sign-here.jpg" />
     <Content Include="img\spacer.gif" />
+    <Content Include="JavaScript\Ajax.aspx" />
     <Content Include="JavaScript\jQuery.aspx" />
     <Content Include="js\base64.js" />
     <Content Include="js\jquery.colorPicker.js" />
@@ -114,6 +115,13 @@
     </Compile>
     <Compile Include="Forms\Multiple.aspx.designer.cs">
       <DependentUpon>Multiple.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JavaScript\Ajax.aspx.cs">
+      <DependentUpon>Ajax.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScript\Ajax.aspx.designer.cs">
+      <DependentUpon>Ajax.aspx</DependentUpon>
     </Compile>
     <Compile Include="JavaScript\jQuery.aspx.cs">
       <DependentUpon>jQuery.aspx</DependentUpon>

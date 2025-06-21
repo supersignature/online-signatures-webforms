@@ -19,7 +19,7 @@
                 <li><a href="Mobile.aspx">Mobile</a></li>
                 <li><a href="background.aspx">Background</a></li>
                 <li><a href="/Forms/Contact.aspx">Contact Form</a></li>
-                <li><a href="ajax.aspx">Ajax</a></li>
+                <li><a href="/JavaScript/Ajax.aspx">Ajax</a></li>
                 <li><a href="/javascript/jQuery.aspx">jQuery</a></li>
                 <li><a href="modal.aspx">Simple Modal</a></li>
                 <li><a href="Toolkit.aspx">Ajax Toolkit</a></li>
