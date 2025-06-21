@@ -38,9 +38,9 @@
                 <li><a href="/UI/ShowHide.aspx">Show - Hide</a></li>
 
                 <!-- Postback -->
-                <li><a href="PostBack.aspx">PostBack</a></li>
-                <li><a href="PostBack-UpdatePanel.aspx">PostBack (Update Panel)</a></li>
-                <li><a href="Wizard.aspx">Wizard (Update Panel)</a></li>
+                <li><a href="/Postback/PostBack.aspx">PostBack</a></li>
+                <li><a href="/Postback/UpdatePanel.aspx">PostBack (Update Panel)</a></li>
+                <li><a href="/Postback/Wizard.aspx">Wizard (Update Panel)</a></li>
 
                 <!-- Misc -->
                 <li><a href="LoadSignature.aspx">Load Signature</a></li>
