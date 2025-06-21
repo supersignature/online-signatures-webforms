@@ -34,10 +34,11 @@
                 <li><a href="/UI/Background.aspx">Background</a></li>
                 <li><a href="/UI/Resize.aspx">Resize</a></li>
                 <li><a href="/UI/Width.aspx">Width</a></li>
+                <li><a href="/UI/ShowHide.aspx">Show - Hide</a></li>
 
                 <!-- Misc -->
                 <li><a href="status.aspx">Status</a></li>
-                <li><a href="ShowHide.aspx">Show - Hide</a></li>
+                
                 <li><a href="SaveDB.aspx">Save To DB</a></li>
                 <li><a href="SaveFile.aspx">Save To File</a></li>
                 <li><a href="document.aspx">Document Signing</a></li>
