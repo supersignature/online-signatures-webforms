@@ -81,6 +81,7 @@
     <Content Include="default.aspx" />
     <Content Include="Forms\Contact.aspx" />
     <Content Include="css\style.css" />
+    <Content Include="Forms\Multiple.aspx" />
     <Content Include="img\Agreement.png" />
     <Content Include="img\background.gif" />
     <Content Include="img\pencil.cur" />
@@ -106,6 +107,13 @@
     </Compile>
     <Compile Include="Forms\Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Multiple.aspx.cs">
+      <DependentUpon>Multiple.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Multiple.aspx.designer.cs">
+      <DependentUpon>Multiple.aspx</DependentUpon>
     </Compile>
     <Compile Include="JavaScript\jQuery.aspx.cs">
       <DependentUpon>jQuery.aspx</DependentUpon>
