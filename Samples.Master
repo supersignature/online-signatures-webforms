@@ -17,7 +17,7 @@
             <ul>
                 <li><a href="/default.aspx">Samples Home</a></li>
                 <li><a href="/UI/Mobile.aspx">Mobile</a></li>
-                <li><a href="background.aspx">Background</a></li>
+                <li><a href="/UI/Background.aspx">Background</a></li>
                 <li><a href="/Forms/Contact.aspx">Contact Form</a></li>
                 <li><a href="/JavaScript/Ajax.aspx">Ajax</a></li>
                 <li><a href="/JavaScript/jQuery.aspx">jQuery</a></li>
