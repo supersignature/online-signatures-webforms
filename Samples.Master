@@ -36,6 +36,7 @@
                 <li><a href="/UI/Resize.aspx">Resize</a></li>
                 <li><a href="/UI/Width.aspx">Width</a></li>
                 <li><a href="/UI/ShowHide.aspx">Show - Hide</a></li>
+                <li><a href="/UI/Status.aspx">Status</a></li>
 
                 <!-- Postback -->
                 <li><a href="/Postback/PostBack.aspx">PostBack</a></li>
@@ -46,7 +47,7 @@
                 <li><a href="/Misc/LoadSignature.aspx">Load Signature</a></li>
                 <li><a href="/Misc/Document.aspx">Document Signing</a></li>
                 <li><a href="Advanced.aspx">Advanced</a></li>
-                <li><a href="status.aspx">Status</a></li>
+                
                 <li><a href="SaveDB.aspx">Save To DB</a></li>
                 <li><a href="SaveFile.aspx">Save To File</a></li>
 

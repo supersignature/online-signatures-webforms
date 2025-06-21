@@ -110,6 +110,7 @@
     <Content Include="UI\Mobile.aspx" />
     <Content Include="UI\Resize.aspx" />
     <Content Include="UI\ShowHide.aspx" />
+    <Content Include="UI\Status.aspx" />
     <Content Include="UI\Width.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -251,6 +252,13 @@
     </Compile>
     <Compile Include="UI\ShowHide.aspx.designer.cs">
       <DependentUpon>ShowHide.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Status.aspx.cs">
+      <DependentUpon>Status.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Status.aspx.designer.cs">
+      <DependentUpon>Status.aspx</DependentUpon>
     </Compile>
     <Compile Include="UI\Width.aspx.cs">
       <DependentUpon>Width.aspx</DependentUpon>
