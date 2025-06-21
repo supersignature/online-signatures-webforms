@@ -101,6 +101,7 @@
     <Content Include="JavaScript\Toolkit.aspx" />
     <Content Include="js\base64.js" />
     <Content Include="js\jquery.colorPicker.js" />
+    <Content Include="Misc\Advanced.aspx" />
     <Content Include="Misc\Document.aspx" />
     <Content Include="Misc\LoadSignature.aspx" />
     <Content Include="Postback\PostBack.aspx" />
@@ -184,6 +185,13 @@
     </Compile>
     <Compile Include="JavaScript\Toolkit.aspx.designer.cs">
       <DependentUpon>Toolkit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Misc\Advanced.aspx.cs">
+      <DependentUpon>Advanced.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Misc\Advanced.aspx.designer.cs">
+      <DependentUpon>Advanced.aspx</DependentUpon>
     </Compile>
     <Compile Include="Misc\Document.aspx.cs">
       <DependentUpon>Document.aspx</DependentUpon>
