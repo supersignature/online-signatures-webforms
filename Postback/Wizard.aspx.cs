@@ -23,7 +23,7 @@ namespace Online.Signatures.Webforms
 
         protected void btnCapture_Click(object sender, EventArgs e)
         {
-            ctlSignature.SaveSignature(Server.MapPath("~/Wizard-Sign.png"));
+            ctlSignature.SaveSignature(Server.MapPath("~/") + Guid.NewGuid() + "-Wizard-Sign.png");
 
             InitSign();
         }

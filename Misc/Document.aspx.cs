@@ -60,7 +60,7 @@ namespace Online.Signatures.Webforms
 
             MemoryStream ms = new MemoryStream();
 
-            string fName = Server.MapPath("~/") + System.Guid.NewGuid().ToString() + ".pdf";
+            string fName = Server.MapPath("~/") + Guid.NewGuid().ToString() + ".pdf";
             s_document.Save(fName);
 
             Response.ContentType = System.Net.Mime.MediaTypeNames.Application.Pdf;

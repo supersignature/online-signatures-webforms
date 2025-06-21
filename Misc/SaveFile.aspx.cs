@@ -21,7 +21,7 @@ namespace Online.Signatures.Webforms
 
             if (null != bmp)
             {
-                bmp.Save(Server.MapPath("~/sign.jpg"), ImageFormat.Jpeg);
+                bmp.Save(Server.MapPath("~/") + Guid.NewGuid() + "-sign.jpg", ImageFormat.Jpeg);
             }
         }
     }

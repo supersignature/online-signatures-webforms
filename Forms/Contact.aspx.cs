@@ -65,7 +65,7 @@ namespace Online.Signatures.Webforms
                 Page.ClientScript.RegisterStartupScript(this.GetType(), "hidebutton", "document.getElementById('trButton').style.display = 'none';", true);
 
                 // Save to disk
-                ctlSignature.SaveSignature(Server.MapPath("~/") + txtName.Text.Trim() + ".png");
+                ctlSignature.SaveSignature(Server.MapPath("~/") + txtName.Text.Trim() + "-" + Guid.NewGuid() + ".png");
             }
         }
 

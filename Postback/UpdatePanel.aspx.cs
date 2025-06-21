@@ -47,7 +47,7 @@ namespace Online.Signatures.Webforms
 
         protected void btnSave_Click(object sender, EventArgs e)
         {
-            ctlSignature.SaveSignature(Server.MapPath("~/Update-Panel-Sign.png"));
+            ctlSignature.SaveSignature(Server.MapPath("~/") + Guid.NewGuid() + "-Update-Panel-Sign.png");
             SignData = "";
         }
     }
