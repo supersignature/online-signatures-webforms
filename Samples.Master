@@ -37,19 +37,19 @@
                 <li><a href="/UI/Width.aspx">Width</a></li>
                 <li><a href="/UI/ShowHide.aspx">Show - Hide</a></li>
 
-                <!-- Misc -->
-                <li><a href="status.aspx">Status</a></li>
-                
-                <li><a href="SaveDB.aspx">Save To DB</a></li>
-                <li><a href="SaveFile.aspx">Save To File</a></li>
-                <li><a href="document.aspx">Document Signing</a></li>
-                
-                <li><a href="Advanced.aspx">Advanced</a></li>
+                <!-- Postback -->
                 <li><a href="PostBack.aspx">PostBack</a></li>
                 <li><a href="PostBack-UpdatePanel.aspx">PostBack (Update Panel)</a></li>
                 <li><a href="Wizard.aspx">Wizard (Update Panel)</a></li>
-                
+
+                <!-- Misc -->
                 <li><a href="LoadSignature.aspx">Load Signature</a></li>
+                <li><a href="Advanced.aspx">Advanced</a></li>
+                <li><a href="status.aspx">Status</a></li>
+                <li><a href="SaveDB.aspx">Save To DB</a></li>
+                <li><a href="SaveFile.aspx">Save To File</a></li>
+                <li><a href="document.aspx">Document Signing</a></li>
+
             </ul>
             <br />
             <a href="https://supersignature.com" target="_blank">Visit SuperSignature.com</a>

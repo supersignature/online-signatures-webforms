@@ -101,6 +101,7 @@
     <Content Include="JavaScript\Toolkit.aspx" />
     <Content Include="js\base64.js" />
     <Content Include="js\jquery.colorPicker.js" />
+    <Content Include="Postback\PostBack.aspx" />
     <Content Include="UI\Background.aspx" />
     <Content Include="UI\Mobile.aspx" />
     <Content Include="UI\Resize.aspx" />
@@ -178,6 +179,13 @@
     </Compile>
     <Compile Include="JavaScript\Toolkit.aspx.designer.cs">
       <DependentUpon>Toolkit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Postback\PostBack.aspx.cs">
+      <DependentUpon>PostBack.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Postback\PostBack.aspx.designer.cs">
+      <DependentUpon>PostBack.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Samples.Master.cs">
