@@ -43,6 +43,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.5.11119.20050, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="PdfSharp, Version=1.31.1789.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -93,6 +97,7 @@
     <Content Include="JavaScript\Ajax.aspx" />
     <Content Include="JavaScript\jQuery.aspx" />
     <Content Include="JavaScript\Modal.aspx" />
+    <Content Include="JavaScript\Toolkit.aspx" />
     <Content Include="js\base64.js" />
     <Content Include="js\jquery.colorPicker.js" />
     <Content Include="UI\Background.aspx" />
@@ -156,6 +161,13 @@
     <Compile Include="JavaScript\Modal.aspx.designer.cs">
       <DependentUpon>Modal.aspx</DependentUpon>
     </Compile>
+    <Compile Include="JavaScript\Toolkit.aspx.cs">
+      <DependentUpon>Toolkit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScript\Toolkit.aspx.designer.cs">
+      <DependentUpon>Toolkit.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Samples.Master.cs">
       <DependentUpon>Samples.Master</DependentUpon>
@@ -189,7 +201,6 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
