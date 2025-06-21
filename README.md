@@ -1,9 +1,9 @@
 # Online Signatures Using Webforms
-<b>Important Note: This sample project does not have the SuperSignature.dll and SuperSignature.MouseSignature.lic license file
+<b>Important Note: This sample project's bin folder does not have the SuperSignature.dll and SuperSignature.MouseSignature.lic license file.
 Please visit our website and download it for free!</b>
 
-Online website and mobile signature capture control. Webforms .NET framework 2.0 4.0.
-This repository serves the sample code in C# and JavaScript to showcase the use of SuperSignature control to sign online from your webforms page using mouse, touch or stylus.
+SuperSignature is an online website and mobile signature capture control. This repository serves the sample code in C# and JavaScript to showcase the use of SuperSignature control to sign online from your webforms page using mouse, touch or stylus.
+It uses Webforms .NET Framework 4.8.
 
 Digital signatures also known as eSignatures allow your website users to sign online using hand drawn signatures. Just like the digital signature pad hardware, SuperSignature
 can use any touch enabled device like iPhone, iPad, Android or similar touch screen device and seamlessly capture user signatures.
