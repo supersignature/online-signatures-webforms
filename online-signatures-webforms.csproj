@@ -87,6 +87,7 @@
     <Content Include="img\refresh.png" />
     <Content Include="img\sign-here.jpg" />
     <Content Include="img\spacer.gif" />
+    <Content Include="javascript\jQuery.aspx" />
     <Content Include="js\base64.js" />
     <Content Include="js\jquery.colorPicker.js" />
     <Content Include="Web.config" />
@@ -106,6 +107,13 @@
     <Compile Include="forms\Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="javascript\jQuery.aspx.cs">
+      <DependentUpon>jQuery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="javascript\jQuery.aspx.designer.cs">
+      <DependentUpon>jQuery.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Samples.Master.cs">
       <DependentUpon>Samples.Master</DependentUpon>
@@ -116,6 +124,7 @@
     <Content Include="bin\SuperSignature.MouseSignature.lic" />
     <None Include="packages.config" />
     <Content Include="Samples.Master" />
+    <Content Include="session-image.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -123,6 +132,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
