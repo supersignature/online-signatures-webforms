@@ -102,6 +102,7 @@
     <Content Include="js\jquery.colorPicker.js" />
     <Content Include="UI\Background.aspx" />
     <Content Include="UI\Mobile.aspx" />
+    <Content Include="UI\Resize.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -186,6 +187,13 @@
     </Compile>
     <Compile Include="UI\Mobile.aspx.designer.cs">
       <DependentUpon>Mobile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Resize.aspx.cs">
+      <DependentUpon>Resize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Resize.aspx.designer.cs">
+      <DependentUpon>Resize.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
