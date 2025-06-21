@@ -95,6 +95,7 @@
     <Content Include="img\sign-here.jpg" />
     <Content Include="img\spacer.gif" />
     <Content Include="JavaScript\Ajax.aspx" />
+    <Content Include="JavaScript\Bootstrap.aspx" />
     <Content Include="JavaScript\jQuery.aspx" />
     <Content Include="JavaScript\Modal.aspx" />
     <Content Include="JavaScript\Toolkit.aspx" />
@@ -149,6 +150,13 @@
     </Compile>
     <Compile Include="JavaScript\Ajax.aspx.designer.cs">
       <DependentUpon>Ajax.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JavaScript\Bootstrap.aspx.cs">
+      <DependentUpon>Bootstrap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScript\Bootstrap.aspx.designer.cs">
+      <DependentUpon>Bootstrap.aspx</DependentUpon>
     </Compile>
     <Compile Include="JavaScript\jQuery.aspx.cs">
       <DependentUpon>jQuery.aspx</DependentUpon>

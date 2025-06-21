@@ -27,7 +27,8 @@
                 <li><a href="/JavaScript/Ajax.aspx">Ajax</a></li>
                 <li><a href="/JavaScript/jQuery.aspx">jQuery</a></li>
                 <li><a href="/JavaScript/Modal.aspx">Simple Modal</a></li>
-                <li><a href="/JavaScript/Toolkit.aspx">Ajax Toolkit</a></li>
+                <li><a href="/JavaScript/Bootstrap.aspx">Bootstrap Modal</a></li>
+                <li><a href="/JavaScript/Toolkit.aspx">Ajax Toolkit</a></li>               
 
                 <!-- UI -->
                 <li><a href="/UI/Mobile.aspx">Mobile</a></li>
@@ -47,7 +48,7 @@
                 <li><a href="PostBack.aspx">PostBack</a></li>
                 <li><a href="PostBack-UpdatePanel.aspx">PostBack (Update Panel)</a></li>
                 <li><a href="Wizard.aspx">Wizard (Update Panel)</a></li>
-                <li><a href="Bootstrap.aspx">Bootstrap Modal</a></li>
+                
                 <li><a href="LoadSignature.aspx">Load Signature</a></li>
             </ul>
             <br />
