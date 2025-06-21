@@ -95,6 +95,7 @@
     <Content Include="JavaScript\Modal.aspx" />
     <Content Include="js\base64.js" />
     <Content Include="js\jquery.colorPicker.js" />
+    <Content Include="UI\Mobile.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -158,6 +159,13 @@
     <Compile Include="Samples.Master.cs">
       <DependentUpon>Samples.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Mobile.aspx.cs">
+      <DependentUpon>Mobile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Mobile.aspx.designer.cs">
+      <DependentUpon>Mobile.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
