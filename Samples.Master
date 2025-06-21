@@ -44,7 +44,7 @@
 
                 <!-- Misc -->
                 <li><a href="/Misc/LoadSignature.aspx">Load Signature</a></li>
-                <li><a href="document.aspx">Document Signing</a></li>
+                <li><a href="/Misc/Document.aspx">Document Signing</a></li>
                 <li><a href="Advanced.aspx">Advanced</a></li>
                 <li><a href="status.aspx">Status</a></li>
                 <li><a href="SaveDB.aspx">Save To DB</a></li>
