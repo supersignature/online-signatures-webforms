@@ -105,6 +105,7 @@
     <Content Include="Misc\Document.aspx" />
     <Content Include="Misc\LoadSignature.aspx" />
     <Content Include="Misc\SaveDB.aspx" />
+    <Content Include="Misc\SaveFile.aspx" />
     <Content Include="Postback\PostBack.aspx" />
     <Content Include="Postback\UpdatePanel.aspx" />
     <Content Include="Postback\Wizard.aspx" />
@@ -214,6 +215,13 @@
     </Compile>
     <Compile Include="Misc\SaveDB.aspx.designer.cs">
       <DependentUpon>SaveDB.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Misc\SaveFile.aspx.cs">
+      <DependentUpon>SaveFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Misc\SaveFile.aspx.designer.cs">
+      <DependentUpon>SaveFile.aspx</DependentUpon>
     </Compile>
     <Compile Include="Postback\PostBack.aspx.cs">
       <DependentUpon>PostBack.aspx</DependentUpon>
