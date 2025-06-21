@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Web.UI;
 
-namespace Online.Signatures.Webforms.JavaScript
+namespace Online.Signatures.Webforms
 {
     public partial class jQuery : Page
     {

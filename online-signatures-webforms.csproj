@@ -79,7 +79,7 @@
     <Content Include="bin\PdfSharp.dll" />
     <Content Include="bin\SuperSignature.dll" />
     <Content Include="default.aspx" />
-    <Content Include="forms\Contact.aspx" />
+    <Content Include="Forms\Contact.aspx" />
     <Content Include="css\style.css" />
     <Content Include="img\Agreement.png" />
     <Content Include="img\background.gif" />
@@ -87,7 +87,7 @@
     <Content Include="img\refresh.png" />
     <Content Include="img\sign-here.jpg" />
     <Content Include="img\spacer.gif" />
-    <Content Include="javascript\jQuery.aspx" />
+    <Content Include="JavaScript\jQuery.aspx" />
     <Content Include="js\base64.js" />
     <Content Include="js\jquery.colorPicker.js" />
     <Content Include="Web.config" />
@@ -100,18 +100,18 @@
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="forms\Contact.aspx.cs">
+    <Compile Include="Forms\Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="forms\Contact.aspx.designer.cs">
+    <Compile Include="Forms\Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="javascript\jQuery.aspx.cs">
+    <Compile Include="JavaScript\jQuery.aspx.cs">
       <DependentUpon>jQuery.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="javascript\jQuery.aspx.designer.cs">
+    <Compile Include="JavaScript\jQuery.aspx.designer.cs">
       <DependentUpon>jQuery.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />

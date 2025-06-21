@@ -1,4 +1,4 @@
-﻿<%@ Page Title="jQuery Signature Capture Example" Language="C#" MasterPageFile="~/Samples.Master" AutoEventWireup="true" CodeBehind="jQuery.aspx.cs" Inherits="Online.Signatures.Webforms.JavaScript.jQuery" %>
+﻿<%@ Page Title="jQuery Signature Capture Example" Language="C#" MasterPageFile="~/Samples.Master" AutoEventWireup="true" CodeBehind="jQuery.aspx.cs" Inherits="Online.Signatures.Webforms.jQuery" %>
 <%@ Register Assembly="SuperSignature" Namespace="SuperSignature" TagPrefix="cc1" %>
 
 <asp:Content ContentPlaceHolderID="cphMain" ID="ctlMain" runat="server">

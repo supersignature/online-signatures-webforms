@@ -7,10 +7,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Online.Signatures.Webforms.JavaScript
+namespace Online.Signatures.Webforms
 {
-
-
     public partial class jQuery
     {
 
