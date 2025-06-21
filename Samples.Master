@@ -32,7 +32,7 @@
                 <li><a href="SaveDB.aspx">Save To DB</a></li>
                 <li><a href="SaveFile.aspx">Save To File</a></li>
                 <li><a href="document.aspx">Document Signing</a></li>
-                <li><a href="Dynamic.aspx">Dynamic</a></li>
+                <li><a href="/Forms/Dynamic.aspx">Dynamic</a></li>
                 <li><a href="Advanced.aspx">Advanced</a></li>
                 <li><a href="PostBack.aspx">PostBack</a></li>
                 <li><a href="PostBack-UpdatePanel.aspx">PostBack (Update Panel)</a></li>

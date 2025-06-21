@@ -81,6 +81,7 @@
     <Content Include="default.aspx" />
     <Content Include="Forms\Contact.aspx" />
     <Content Include="css\style.css" />
+    <Content Include="Forms\Dynamic.aspx" />
     <Content Include="Forms\Multiple.aspx" />
     <Content Include="Forms\Repeater.aspx" />
     <Content Include="img\Agreement.png" />
@@ -110,6 +111,13 @@
     </Compile>
     <Compile Include="Forms\Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dynamic.aspx.cs">
+      <DependentUpon>Dynamic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\Dynamic.aspx.designer.cs">
+      <DependentUpon>Dynamic.aspx</DependentUpon>
     </Compile>
     <Compile Include="Forms\Multiple.aspx.cs">
       <DependentUpon>Multiple.aspx</DependentUpon>
