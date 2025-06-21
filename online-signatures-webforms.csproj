@@ -91,6 +91,7 @@
     <Content Include="img\spacer.gif" />
     <Content Include="JavaScript\Ajax.aspx" />
     <Content Include="JavaScript\jQuery.aspx" />
+    <Content Include="JavaScript\Modal.aspx" />
     <Content Include="js\base64.js" />
     <Content Include="js\jquery.colorPicker.js" />
     <Content Include="Web.config" />
@@ -137,6 +138,13 @@
     </Compile>
     <Compile Include="JavaScript\jQuery.aspx.designer.cs">
       <DependentUpon>jQuery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JavaScript\Modal.aspx.cs">
+      <DependentUpon>Modal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScript\Modal.aspx.designer.cs">
+      <DependentUpon>Modal.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Samples.Master.cs">

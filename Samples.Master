@@ -21,7 +21,7 @@
                 <li><a href="/Forms/Contact.aspx">Contact Form</a></li>
                 <li><a href="/JavaScript/Ajax.aspx">Ajax</a></li>
                 <li><a href="/JavaScript/jQuery.aspx">jQuery</a></li>
-                <li><a href="modal.aspx">Simple Modal</a></li>
+                <li><a href="/JavaScript/Modal.aspx">Simple Modal</a></li>
                 <li><a href="Toolkit.aspx">Ajax Toolkit</a></li>
                 <li><a href="resize.aspx">Resize</a></li>
                 <li><a href="/Forms/Multiple.aspx">Multiple</a></li>
