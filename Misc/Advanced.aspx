@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Advance Use Of Web Signature Control" Language="C#" MasterPageFile="~/Samples.Master" AutoEventWireup="true" CodeBehind="Advanced.aspx.cs" Inherits="Online.Signatures.Webforms.Advanced" %>
 <%@ Register Assembly="SuperSignature" Namespace="SuperSignature" TagPrefix="cc1" %>
 <asp:Content ID="ctMain" ContentPlaceHolderID="cphMain" runat="server">
- <script src="https://code.jquery.com/jquery-1.9.1.js" type="text/javascript"></script>
+ <script src="https://code.jquery.com/jquery-3.1.0.js" type="text/javascript"></script>
  <cc1:MouseSignature ID="ctlSignature" SignPenCursor="/img/pencil.cur" IncludeJquery="false" SmoothSign="true" SignStartMessage="Please ENABLE signature AREA before signing!" runat="server" SignRequired="false" />
  <br />
  <b>Part-1</b><hr />
