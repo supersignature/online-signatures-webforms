@@ -101,6 +101,7 @@
     <Content Include="JavaScript\Toolkit.aspx" />
     <Content Include="js\base64.js" />
     <Content Include="js\jquery.colorPicker.js" />
+    <Content Include="Misc\LoadSignature.aspx" />
     <Content Include="Postback\PostBack.aspx" />
     <Content Include="Postback\UpdatePanel.aspx" />
     <Content Include="Postback\Wizard.aspx" />
@@ -181,6 +182,13 @@
     </Compile>
     <Compile Include="JavaScript\Toolkit.aspx.designer.cs">
       <DependentUpon>Toolkit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Misc\LoadSignature.aspx.cs">
+      <DependentUpon>LoadSignature.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Misc\LoadSignature.aspx.designer.cs">
+      <DependentUpon>LoadSignature.aspx</DependentUpon>
     </Compile>
     <Compile Include="Postback\PostBack.aspx.cs">
       <DependentUpon>PostBack.aspx</DependentUpon>
