@@ -16,23 +16,32 @@
         <div id="divLeft">
             <ul>
                 <li><a href="/default.aspx">Samples Home</a></li>
-                <li><a href="/UI/Mobile.aspx">Mobile</a></li>
-                <li><a href="/UI/Background.aspx">Background</a></li>
+
+                <!-- Forms -->
                 <li><a href="/Forms/Contact.aspx">Contact Form</a></li>
+                <li><a href="/Forms/Multiple.aspx">Multiple</a></li>
+                <li><a href="/Forms/Repeater.aspx">Repeater</a></li>
+                <li><a href="/Forms/Dynamic.aspx">Dynamic</a></li>
+
+                <!-- JavaScript -->
                 <li><a href="/JavaScript/Ajax.aspx">Ajax</a></li>
                 <li><a href="/JavaScript/jQuery.aspx">jQuery</a></li>
                 <li><a href="/JavaScript/Modal.aspx">Simple Modal</a></li>
                 <li><a href="/JavaScript/Toolkit.aspx">Ajax Toolkit</a></li>
+
+                <!-- UI -->
+                <li><a href="/UI/Mobile.aspx">Mobile</a></li>
+                <li><a href="/UI/Background.aspx">Background</a></li>
                 <li><a href="/UI/Resize.aspx">Resize</a></li>
-                <li><a href="/Forms/Multiple.aspx">Multiple</a></li>
-                <li><a href="/Forms/Repeater.aspx">Repeater</a></li>
-                <li><a href="Width.aspx">Width</a></li>
+                <li><a href="/UI/Width.aspx">Width</a></li>
+
+                <!-- Misc -->
                 <li><a href="status.aspx">Status</a></li>
                 <li><a href="ShowHide.aspx">Show - Hide</a></li>
                 <li><a href="SaveDB.aspx">Save To DB</a></li>
                 <li><a href="SaveFile.aspx">Save To File</a></li>
                 <li><a href="document.aspx">Document Signing</a></li>
-                <li><a href="/Forms/Dynamic.aspx">Dynamic</a></li>
+                
                 <li><a href="Advanced.aspx">Advanced</a></li>
                 <li><a href="PostBack.aspx">PostBack</a></li>
                 <li><a href="PostBack-UpdatePanel.aspx">PostBack (Update Panel)</a></li>
